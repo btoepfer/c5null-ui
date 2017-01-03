@@ -9,6 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('terms');
   this.route('blank');
+  this.route('alive-test');
 });
 
 export default Router;
