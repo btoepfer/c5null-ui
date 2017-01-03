@@ -1,0 +1,64 @@
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="container">
+      <div id="logo">
+        <div class="logo">
+          <a class="logo" href="/">
+            <img title="Back to Start" alt="Start" height="50px" src="images/C5Null.svg">
+          </a>
+        </div>
+      </div>
+      
+      <div id="nav">
+        <nav class="nav">
+          <ul class="nav">
+          <li>
+            {{#link-to "blank" title="Add"}}
+              {{fa-icon "plus" size="lg"}}
+            {{/link-to }}
+          </li>
+          <li>
+            {{#link-to "blank" title="Administration"}}
+              {{fa-icon "gear" size="lg"}}
+            {{/link-to }}
+          </li>
+          <li>
+            {{#link-to "blank" title="Account"}}
+              {{fa-icon "user" size="lg"}}
+            {{/link-to }}
+          </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="body">
+  <div class="wrap">
+    <div class="container">
+      {{outlet}}
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+  <div class="container">
+    <div class="content-50-left">
+      <div class="text-left">
+        <span>
+          {{#link-to "terms"}}
+            {{fa-icon "legal"}} Impressum
+          {{/link-to }}
+        </span>
+      </div>
+    </div>
+    <div class="content-50-right">
+      <div class="text-right">
+        <i class="fa fa-copyright"></i>
+        2016 - Bernd C. Toepfer
+      </div>
+    </div>
+  </div>
+</div>
