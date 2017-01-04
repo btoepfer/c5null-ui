@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('terms');
   this.route('blank');
   this.route('alive-test');
+  this.route('list-configurations');
 });
 
 export default Router;
