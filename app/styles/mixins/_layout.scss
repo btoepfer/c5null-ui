@@ -43,7 +43,6 @@
 #footer a {
   color: #fff;
   margin-right:20px;
-  text-decoration:none;
   color: $navbar-link-color;
   
   &:hover{
@@ -52,17 +51,6 @@
   };
 }
 
-.ui-widget-header {
-  background:$brand-primary-grey-dark !important;
-  color:#fff !important;
-}
-
-#tabs {
-  .ui-widget-header {
-    background:$brand-primary-grey !important;
-    color:#fff !important;
-  }
-}
 
 #message {
   position: absolute;
