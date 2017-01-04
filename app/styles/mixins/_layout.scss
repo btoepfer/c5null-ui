@@ -1,5 +1,5 @@
 .wrap {
-  padding:0px 10px;
+  padding:0px $body-padding;
 }
 
 .align-right{
@@ -33,7 +33,7 @@
   bottom: 0;
   left:0;
   width: 100%;
-  padding:15px 10px 0 10px;
+  padding:15px $body-padding 0 $body-padding;
   /* Set the fixed height of the footer here */
   height: $footer-height;
   background-color: $brand-primary-grey-dark;
