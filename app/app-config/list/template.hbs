@@ -1,11 +1,7 @@
-{{page-header icon="cogs" title="Konfigurationen"}}
+{{page-header icon="gears" title="Konfigurationen"}}
 <div>
-  <ul>
   {{#each model as |cf|}}
-  <li class="cf">
-    {{cf.name}}
-  </li>
+    {{app-config/cf-item cf=cf}}
   {{/each}}
-  </ul>
 </div>
 

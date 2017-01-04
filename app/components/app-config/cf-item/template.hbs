@@ -1,0 +1,31 @@
+<div class="cf" id="{{cf.id}}">
+  <h5>
+    {{cf.name}}
+    <div class="cf-menu">
+      {{#link-to "app-config.show" cf.id}}
+        {{fa-icon "gear"}}
+      {{/link-to}}
+    </div>
+  </h5>
+  <div>
+    <small>
+    <details>
+      <summary>Beschreibung</summary>
+      {{cf.description}}
+    </details>
+      
+    </small>
+  </div>
+  <h6>Objekttypen</h6>
+  <div>
+    <small>
+    ...
+    </small>
+  </div>
+  <h6>Datei(en)</h6>
+  <div>
+    <small>
+    ...
+    </small>
+  </div>
+</div>

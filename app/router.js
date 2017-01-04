@@ -13,6 +13,7 @@ Router.map(function() {
 
   this.route('app-config', function() {
     this.route('list');
+    this.route('show', {path: '/:id'});
   });
 });
 
